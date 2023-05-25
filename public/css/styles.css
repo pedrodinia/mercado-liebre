@@ -1,0 +1,437 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+article{
+    background-color: #FFF;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.logo{
+    width:50%;
+    padding: 10px;
+}
+
+.buscador{
+    width:50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+header p {
+    text-align: center;
+}
+
+header nav ul li {
+    list-style-type: none; 
+} 
+
+header nav ul {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+
+} 
+header nav ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    list-style-type: none;   
+}       
+
+
+header .buscador .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;   
+    
+}
+header .buscador .lupa i{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    height: 25px;
+    width: 25px;
+}
+
+header  div.burguer-menu i{
+    color: #FFF;
+    background-color: #1259c3;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 8px;
+}
+
+
+header  div.burguer-menu {
+    text-align: center;    
+}
+header{
+    width: 100vw;
+}
+
+header nav{
+    display: none;
+    justify-content: space-between;
+    
+}
+
+.banner-img{
+    width: 100vw
+}
+
+.info-article{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main section article div i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: all 0.7s;
+}
+
+#formulario-registro{
+    background-color: #ebebeb;
+}
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.ingreso{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.selecciones{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.botonForm{
+    width: 40%;
+}
+
+
+.botonSubmit {
+    
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    background-color: #666;
+    color: #FFF;
+}
+
+.botonReset {
+   
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    background-color: #666;
+    color: #FFF;
+}
+
+.botonSubmit:hover{
+    background-color: #0022aa;
+    transition: 0.7s;
+}
+.botonReset:hover{
+    background-color: #0022aa;
+    transition: 0.7s;
+}
+
+
+form div{
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.text-field{
+    padding: 5px;
+}
+
+
+
+ @media (min-width: 361px) {
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .desc-prod {
+        display: block;
+    }
+
+    main section article{
+         width: 45%;
+    }
+    header nav{
+        display: flex;
+    }
+    header div.burguer-menu {
+        display: none;
+    }
+ }
+
+ @media (min-width: 769px) {
+    main section article{
+        width: 22.5%;
+     }
+     header nav ul li a {
+        font-size: 18px;
+     }
+     .desc-prod {
+        display: none;
+     }
+     article:hover .desc-prod {
+        display: block;
+     }
+     article:hover {
+        box-shadow: 0px 0px 10px #666;
+     }
+     article:hover div i {
+        transform: rotate(-90deg);
+     }
+
+     header .buscador .input{
+        background-color: #FFF;
+        border: 1px solid #000;
+        color: #666;   
+        width: 500px;
+        height: 25px;
+    }
+ }
+
+.img-logo{
+    width: 50%;
+}
+
+article div i {
+    color: #39b54a;
+    transition: all 0.5s;
+}
+
+article{
+    transition: all 0.5s;
+}
+
+.desc-prod{
+    transition: all 0.7s;
+}
+
+main section article{
+    margin-bottom: 10px;
+    
+}
+main section article img{
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+main section h3 {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+main section article p.precio{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+main section article p.descuento{
+    font-size: 16px;
+    text-decoration: none;
+    color: #39b54a;
+}
+
+.precio{
+    width: 30%;
+}
+
+.descuento{
+    width: 70%;
+
+}
+
+main section article h4{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+main section h3 {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+footer div.iconos{
+    text-align: center;
+    font-size: 25px;
+    color: #1259c3;
+    padding-top: 10;
+    margin-bottom: 10px;   
+}
+footer div.iconos:hover{
+    
+    transition: 0.3s;
+    color: #EAC926;
+     
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articlefooter{
+    width: 33.3%;
+    margin-bottom: 20px;
+}
+
+footer div h3{
+    text-align: center;
+    color: #666;
+    
+}
+
+footer div p{
+    text-align: center;
+    color: #666;
+    line-height: 1;   
+}
+
+footer p{
+    text-align: left;
+    color: #666;
+    
+}
+
+
+
+.selecciones{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.botonesregister{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.usercreation{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.formIngreso{
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.username{
+    
+    background-color: #ebebeb;
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.password{
+    background-color: #ebebeb;
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.confirmacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #5fa1f8;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #1259c3;
+    margin: 10px;
+
+}
+
+.confirmacion:hover{
+    background-color: #1259c3;
+    transition: 0.5s;
+}
+

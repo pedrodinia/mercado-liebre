@@ -1,0 +1,67 @@
+colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+tipografia
+Familia: 'Roboto'. desde google fonts
+
+tamaños tipograficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+iconos
+https://fontawesome.com/icons?d=gallery&m=free
+
+http://localhost:3000/ ----- servidor, previo correr npm test, para pmatar crt+c y servidor HACE POCO
+
+referencias iconos
+<i class="fa fa-search"></i>
+<i class="far fa-id-card"></i>
+<i class="fas fa-sign-in-alt"></i>
+<i class="fas fa-shopping-basket"></i>
+<i class="fa fa-bars burger"></i>
+
+<i class="fas fa-truck"></i> camioncito
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> esto define la pantalla adaptable
+0-480
+481-768
+769-1279
+1280+
+
+clase 20.-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main section article i{
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+}
+
+
+para comentar html
+<!-- -->
+ctr/
+
+clase 17/5
+
